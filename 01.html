@@ -1,0 +1,127 @@
+<form
+action="https://docs.google.com/forms/d/e/1FAIpQLSdIgbl14U1zU7urKmmutJPtVGWTYkoB8EB2MRIwofby-A0A3w/formResponse"
+method="POST" target=" blank">
+<labe1>姓名:</label>
+<input name="entry.1140609599" type="text"><br>
+<label>年齡:</label>
+<input name="entry.1900820727" type="text"><br>
+
+  <label>生肖:</label>
+  <select name="entry.258650136">
+    <option value="">-- 請選擇 --</option>
+    <option value="鼠">鼠</option>
+    <option value="牛">牛</option>
+    <option value="虎">虎</option>
+    <option value="兔">兔</option>
+    <option value="龍">龍</option>
+    <option value="蛇">蛇</option>
+    <option value="馬">馬</option>
+    <option value="羊">羊</option>
+    <option value="猴">猴</option>
+    <option value="雞">雞</option>
+    <option value="狗">狗</option>
+    <option value="豬">豬</option>
+  </select><br>
+
+  <label>顏色:</label>
+  <select name="entry.201784655">
+    <option value="">-- 請選擇 --</option>
+    <option value="紅色">紅色</option>
+    <option value="橙色">橙色</option>
+    <option value="黃色">黃色</option>
+    <option value="綠色">綠色</option>
+    <option value="藍色">藍色</option>
+    <option value="紫色">紫色</option>
+    <option value="黑色">黑色</option>
+    <option value="白色">白色</option>
+  </select><br>
+
+<button type="submit">送出</button>
+</form>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>黑金風格表單</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #d4af37;
+      font-family: 'Helvetica Neue', sans-serif;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #ffd700;
+      text-align: center;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+      background-color: #111;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #d4af37;
+      border-radius: 4px;
+      background-color: #1a1a1a;
+      color: #d4af37;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #ffd700;
+      box-shadow: 0 0 5px rgba(255, 215, 0, 0.6);
+    }
+
+    button {
+      margin-top: 30px;
+      width: 100%;
+      padding: 12px;
+      background-color: #d4af37;
+      color: black;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <h1>人員資料表</h1>
+  <form>
+    <label for="name">姓名</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="age">年齡</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="phone">電話</label>
+    <input type="text" id="phone" name="phone" required>
+
+    <label for="note">備註</label>
+    <textarea id="note" name="note" rows="4"></textarea>
+
+    <button type="submit">送出</button>
+  </form>
+</body>
+</html>
+
